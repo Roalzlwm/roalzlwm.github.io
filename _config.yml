@@ -23,7 +23,11 @@ description: >- # used by seo meta and the atom feed
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
+<<<<<<< Updated upstream
 url: "https://roalzlwm/github.io"
+=======
+url: "https://roalzlwm.github.io"
+>>>>>>> Stashed changes
 
 github:
   username: Roalzlwm # change to your GitHub username
