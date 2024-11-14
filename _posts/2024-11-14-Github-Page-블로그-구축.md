@@ -6,7 +6,6 @@ title: "Github Page 블로그 구축"
 ## 1. Repository 생성
 
 ![image](https://github.com/user-attachments/assets/73b21b35-c0a4-45dd-a471-987d4d19d083)
->>>>>>> 5d343d89ea487d2e124ee074e0e1185849e63a18
 - 공개를 `Public`으로 설정
 - `Add a README file` 체크
 
