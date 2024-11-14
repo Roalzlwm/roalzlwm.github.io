@@ -5,7 +5,7 @@ title: "Github Page 블로그 구축"
 
 ## 1. Repository 생성
 
-![alt text](image.png)
+![alt text](image-37.png)
 - 공개를 `Public`으로 설정
 - `Add a README file` 체크
 
