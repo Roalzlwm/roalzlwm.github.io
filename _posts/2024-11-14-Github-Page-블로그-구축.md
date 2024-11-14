@@ -5,9 +5,6 @@ title: "Github Page 블로그 구축"
 
 ## 1. Repository 생성
 
-<<<<<<< HEAD
-![alt text](image-37.png)
-=======
 ![image](https://github.com/user-attachments/assets/73b21b35-c0a4-45dd-a471-987d4d19d083)
 >>>>>>> 5d343d89ea487d2e124ee074e0e1185849e63a18
 - 공개를 `Public`으로 설정
@@ -255,4 +252,115 @@ $ git pull
 
 <br/>
 
-```ruby료
+```ruby
+npm install && npm run build
+```
+
+- `Start Command Prompt with Ruby`에서 위 명령어 실행
+  - 실행이 안 될 경우 프롬프트 창을 껐다가 다시 실행
+  - 잘 되고 있는지 모르겠다 싶을 때 `Enter`를 누르면 뜸
+
+<br/>
+
+![](https://velog.velcdn.com/images/parkm0708/post/652a3502-08a9-414b-889f-0653494b587d/image.png)
+
+- 설치 및 빌드 완료
+
+<br/>
+
+![](https://velog.velcdn.com/images/parkm0708/post/7058da5b-f689-43a1-a2a9-3c66bd080f84/image.png)
+
+```
+# Misc
+# _sass/dist
+# assets/js/dist
+```
+
+- `.gitignore` 파일 중 Misc 부분을 주석 처리
+
+<br/>
+
+![](https://velog.velcdn.com/images/parkm0708/post/d978c910-0743-4ed6-b618-851ea117fcea/image.png)
+
+- `_config.yml` 파일을 위와 같이 수정
+  - timezone : `Asia/Seoul`로 수정
+  - url : `https://원격 리포지토리명`으로 수정
+  - username : `유저명`으로 수정
+
+<br/>
+
+![](https://velog.velcdn.com/images/parkm0708/post/e943707d-c17e-4e47-8cd4-a194daa37ec7/image.png)
+
+- 변경 내용은 commit 및 push
+
+<br/>
+
+![](https://velog.velcdn.com/images/parkm0708/post/be0d8328-6668-4924-8a3d-af88e5d4c6be/image.png)
+
+- commit 도중 위와 같은 오류가 떴음
+  - 해당 오류는 아래와 같을 때 뜸
+    - Node.js가 제대로 설치되어 있지 않을 때
+      - `-v`를 사용하여 설치가 되었는지 확인
+      - `node -v`, `npm -v`
+    - Node.js가 경로에 추가되지 않았을 때
+    - Node.js가 설치되고 VS Code에 적용되지 않았을 때
+      - VS Code를 재실행
+
+- VS Code를 재실행하였더니 제대로 실행됨
+
+<br/>
+
+![](https://velog.velcdn.com/images/parkm0708/post/62f68058-13d3-4e4f-aba7-25cbb5bab27a/image.png)
+
+- 위와 같은 오류가 뜸
+
+  - 아무래도 모르고 원격 리포지토리에서 먼저 `.gitignore`과 `_config.yml`를 커밋하고 로컬 리포지토리에서 다시 수정하고 커밋하려 하니 충돌이 일어난 것 같음
+
+- 해결
+
+  - `git bash` 혹은 VS Code에서 Terminal를 열음
+
+  - 변경 사항 stash
+
+    - 로컬에서 작업한 변경 사항을 임시로 저장
+
+    - ```bash
+      git stash
+      ```
+
+  - 원격 리포지토리에서 최신 변경 사항을 가져옴
+
+    - ```bash
+      git pull origin main
+      ```
+
+  - stash 적용
+
+    - ```bash
+      git stash pop
+      ```
+
+  - 변경 사항 커밋 및 푸시
+
+    - ```bash
+      git add .
+      ```
+
+    - ```bash
+      git commit -m "fix: resolve conflicts and apply local changes" 
+      ```
+
+    - ```bash
+      git push origin main
+      ```
+
+<br/>
+
+![](https://velog.velcdn.com/images/parkm0708/post/8d750ca1-e9d1-4a46-ab13-75f6ccb8c8f8/image.png)
+
+- commit 및 push 완료
+
+<br/>
+
+![](https://velog.velcdn.com/images/parkm0708/post/f0b5654f-addd-46cf-9eca-65d612e60634/image.png)
+- 적용될 때까지 기다리면 적용 완료
