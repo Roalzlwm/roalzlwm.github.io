@@ -689,8 +689,8 @@ $btn-mb: 0.5rem;
   overflow-y: auto;
   width: $sidebar-width;
   /*background: var(--sidebar-bg);*/
-  background-image: url('assets/img/sidebar-bg-img.jpg'); /*사용하고 싶은 이미지 경로*/
-  background-size: cover;  /*이미지의 size가 보여질 부분의 사이즈와 다른 경우에는 이미지 크기를 꽉차게 만든다 */
+  background-image: url('assets/img/sidebar-bg-img.jpg') !important;
+  background-size: cover; 
   background-repeat: no-repeat;
   border-right: 1px solid var(--sidebar-border-color);
 
