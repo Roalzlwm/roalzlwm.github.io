@@ -117,9 +117,6 @@ comments:
   utterances:
     repo: "roalzlwm.github.io" # <gh-username>/<repo>
     issue_term: "pathname" # < url | pathname | title | ...>
-    label: "blog.comment"
-    theme: "github-dark"
-    crossorigin: "anonymous"
   # Giscus options › https://giscus.app
   giscus:
     repo: # <gh-username>/<repo>
