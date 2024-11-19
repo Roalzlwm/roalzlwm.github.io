@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Github Page 블로그 구축"
+categories: Github-Page
 ---
 
 ## 1. Repository 생성
