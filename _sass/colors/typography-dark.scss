@@ -37,10 +37,7 @@
   --site-title-color: #717070;
   --site-subtitle-color: #868686;
   /*--sidebar-bg: #1e1e1e;*/
-  /*--sidebar-bg: url('/assets/img/sidebar-bg-img.jpg');*/
-  background-image: url('/assets/img/sidebar-bg-img.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
+  --sidebar-bg: url('assets/img/sidebar-bg-img.jpg');
   --sidebar-border-color: #292929;
   --sidebar-muted-color: #868686;
   --sidebar-active-color: rgb(255, 255, 255, 0.95);
