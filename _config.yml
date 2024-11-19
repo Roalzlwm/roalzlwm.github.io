@@ -16,7 +16,7 @@ timezone: Asia/Seoul
 
 title: Roalzlwm의 Blog # the main title
 
-tagline: 공부일지 # it will display as the subtitle
+tagline: 으아아악! 으아아악! 그래도 해야지 # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
@@ -98,7 +98,7 @@ theme_mode: # [light | dark]
 cdn: "https://chirpy-img.netlify.app"
 
 # the avatar on sidebar, support local or CORS resources
-avatar: ""
+avatar: "assets/img/Gojo-cat-icon.png"
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
