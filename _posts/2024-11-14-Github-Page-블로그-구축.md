@@ -363,3 +363,13 @@ npm install && npm run build
 
 ![](https://velog.velcdn.com/images/parkm0708/post/f0b5654f-addd-46cf-9eca-65d612e60634/image.png)
 - 적용될 때까지 기다리면 적용 완료
+
+
+<script src="https://utteranc.es/client.js"
+        repo="roalzlwm.github.io"
+        issue-term="pathname"
+        label="blog.comment"
+        theme="github-dark"
+        crossorigin="anonymous"
+        async>
+</script>
