@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "블로그 세부설정"
+categories: Github-Page
 ---
 
 <br/>
