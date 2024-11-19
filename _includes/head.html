@@ -61,6 +61,8 @@
 
   {% include_cached favicons.html %}
 
+  <link rel="shotcut icon" href="cat_16x16.png">
+
   <!-- Resource Hints -->
   {% unless site.assets.self_host.enabled %}
     {% for hint in site.data.origin.cors.resource_hints %}
