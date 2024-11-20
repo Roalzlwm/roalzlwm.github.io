@@ -679,7 +679,7 @@ $sidebar-display: 'sidebar-display';
 $btn-border-width: 3px;
 $btn-mb: 0.5rem;
 
-#sidebar {
+sidebar {
   @include pl-pr(0);
 
   position: fixed;
