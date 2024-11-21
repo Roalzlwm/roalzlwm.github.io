@@ -2,7 +2,7 @@
 layout: post
 title: "Github Page 블로그 구축"
 categories: Github-Page
-tags: ["Blog", "Git", "Github-Page"]
+tags: [Blog, Git, Github-Page]
 ---
 
 ## 1. Repository 생성
