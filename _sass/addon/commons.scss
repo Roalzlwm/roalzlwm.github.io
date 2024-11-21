@@ -719,6 +719,8 @@ $btn-mb: 0.5rem;
     width: 7rem;
     height: 7rem;
     overflow: hidden;
+    color: rgba(255, 255, 255, 1);
+    border: 2px solid rgba(233, 58, 87, 1);
     box-shadow: var(--avatar-border-color) 0 0 0 2px;
     transform: translateZ(0); /* fixed the zoom in Safari */
 
@@ -726,6 +728,8 @@ $btn-mb: 0.5rem;
       transition: transform 0.5s;
 
       &:hover {
+        color: rgba(255, 255, 255, 1);
+        border-color: rgba(242, 229, 140, 0.6);
         transform: scale(1.2);
       }
     }
