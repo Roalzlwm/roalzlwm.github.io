@@ -2,7 +2,7 @@
 layout: post
 title: "블로그 세부설정"
 categories: Github-Page
-tags: ["Blog", "Git", "Github-Page"]
+tags: [Blog, Git, Github-Page]
 ---
 
 <br/>
