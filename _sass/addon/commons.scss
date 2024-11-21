@@ -766,117 +766,116 @@ $btn-mb: 0.5rem;
   }
 
   ul {
-    margin-bottom: 2rem;
+  margin-bottom: 2rem;
 
-    li.nav-item {
-      opacity: 0.9;
-      width: 100%;
-      padding-left: 1.5rem;
-      padding-right: 1.5rem;
+  li.nav-item {
+    opacity: 0.9;
+    width: 100%;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
 
-      a.nav-link {
-        @include pt-pb(0.6rem);
+    a.nav-link {
+      @include pt-pb(0.6rem);
 
-        display: flex;
-        align-items: center;
-        border-radius: 0.75rem;
-        font-weight: 800;
+      display: flex;
+      align-items: center;
+      border-radius: 0.75rem;
+      font-weight: 800;
 
-        color: rgba(255, 255, 255, 1) !important;
+      color: rgba(255, 255, 255, 1) !important;
 
-        &:hover {
-          background-color: rgba(242, 229, 140, 0.6) !important;
+      &:hover {
+        background-color: rgba(242, 229, 140, 0.6) !important;
+        color: rgba(233, 58, 87, 1) !important;
+
+        span {
           color: rgba(233, 58, 87, 1) !important;
-          
-          span {
-            color: rgba(233, 58, 87, 1) !important;
-          }
-          i {
-            font-size: 95%;
-            margin-right: 1.5rem;
-            color: rgba(233, 58, 87, 1) !important;
-          }
         }
-
         i {
           font-size: 95%;
           margin-right: 1.5rem;
-          color: rgba(255, 255, 255, 1) !important;
+          color: rgba(233, 58, 87, 1) !important;
         }
+      }
+
+      i {
+        font-size: 95%;
+        margin-right: 1.5rem;
+        color: rgba(255, 255, 255, 1) !important;
+      }
+
+      span {
+        font-size: 90%;
+        letter-spacing: 0.2px;
+        color: rgba(255, 255, 255, 1) !important;
+      }
+    }
+
+    &.active {
+      .nav-link {
+        background-color: rgba(242, 229, 140, 1) !important;
+        color: rgba(233, 58, 87, 1) !important;
 
         span {
-          font-size: 90%;
-          letter-spacing: 0.2px;
-          color: rgba(255, 255, 255, 1) !important;
-        }
-      }
-
-      &.active {
-        .nav-link {
-          background-color: rgba(242, 229, 140, 1) !important;
+          opacity: 1;
           color: rgba(233, 58, 87, 1) !important;
-          
-          span {
-            opacity: 1;
-            color: rgba(233, 58, 87, 1) !important;
-          }
-          i{
-            font-size: 95%;
-            margin-right: 1.5rem;
-            color: rgba(233, 58, 87, 1) !important;
+        }
+        i {
+          font-size: 95%;
+          margin-right: 1.5rem;
+          color: rgba(233, 58, 87, 1) !important;
         }
       }
+    }
 
-      &:not(:first-child) {
-        margin-top: 0.25rem;
-      }
+    &:not(:first-child) {
+      margin-top: 0.25rem;
+    }
+  }
+}
+
+.sidebar-bottom {
+  @include pl-pr(2rem);
+  margin-bottom: 1.5rem;
+
+  $btn-size: 1.75rem;
+
+  %button {
+    width: $btn-size;
+    height: $btn-size;
+    margin-bottom: $btn-mb; // multi line gap
+    border-radius: 50%;
+    color: rgba(255, 255, 255, 1) !important;
+    background-color: rgba(233, 58, 87, 1) !important;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &:not(:focus-visible) {
+      box-shadow: var(--sidebar-border-color) 0 0 0 1px;
+    }
+
+    &:hover {
+      background-color: rgba(242, 229, 140, 1) !important;
     }
   }
 
-  .sidebar-bottom {
-    @include pl-pr(2rem);
-    
-    /*padding-left: 2rem;
-    padding-right: 1rem;*/
-    margin-bottom: 1.5rem;
+  a {
+    @extend %button;
+    @extend %sidebar-link-hover;
+    @extend %clickable-transition;
 
-    $btn-size: 1.75rem;
-
-    %button {
-      width: $btn-size;
-      height: $btn-size;
-      margin-bottom: $btn-mb; // multi line gap
-      border-radius: 50%;
-      color: rgba(255, 255, 255, 1) !important;
-      background-color: rgba(233, 58, 87, 1) !important;
-      text-align: center;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-
-      &:not(:focus-visible) {
-        box-shadow: var(--sidebar-border-color) 0 0 0 1px;
-      }
-
-      &:hover {
-        background-color: rgba(242, 229, 140, 1) !important;
-      }
+    &:not(:last-child) {
+      margin-right: $sb-btn-gap;
     }
+  }
 
-    a {
-      @extend %button;
-      @extend %sidebar-link-hover;
-      @extend %clickable-transition;
-
-      &:not(:last-child) {
-        margin-right: $sb-btn-gap;
-      }
-    }
-
-    i {
-      line-height: $btn-size;
-    }
-
+  i {
+    line-height: $btn-size;
+  }
+}
+  
     #mode-toggle {
       @extend %button;
       @extend %sidebar-links;
