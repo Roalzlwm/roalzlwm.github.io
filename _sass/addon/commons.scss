@@ -719,9 +719,8 @@ $btn-mb: 0.5rem;
     width: 7rem;
     height: 7rem;
     overflow: hidden;
-    color: rgba(255, 255, 255, 1);
-    border: 2px solid rgba(233, 58, 87, 1);
-    box-shadow: var(--avatar-border-color) 0 0 0 2px;
+    border: 2px solid var(--avatar-border-color);
+    box-shadow: rgba(233, 58, 87, 1) 0 0 0 2px;
     transform: translateZ(0); /* fixed the zoom in Safari */
 
     img {
