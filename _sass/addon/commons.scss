@@ -763,6 +763,14 @@ $btn-mb: 0.5rem;
      1px  1px 0px rgba(233, 58, 87, 1); 
   }
 
+  &:hover {
+    text-shadow: 
+      -1px -1px 0px rgba(242, 229, 140, 1), 
+       1px -1px 0px rgba(242, 229, 140, 1), 
+      -1px  1px 0px rgba(242, 229, 140, 1), 
+       1px  1px 0px rgba(242, 229, 140, 1);
+  }
+
   .site-subtitle {
     font-size: 95%;
     color: rgba(255, 255, 255, 1);
