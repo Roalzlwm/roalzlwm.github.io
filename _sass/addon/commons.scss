@@ -756,7 +756,11 @@ $btn-mb: 0.5rem;
     margin-bottom: 0.5rem;
     width: fit-content;
     color: rgba(255, 255, 255, 1);
-    text-shadow: rgba(233, 58, 87, 1) 0 0 0 2px;
+    text-shadow: 
+    -1px -1px 0px rgba(233, 58, 87, 1), 
+     1px -1px 0px rgba(233, 58, 87, 1), 
+    -1px  1px 0px rgba(233, 58, 87, 1), 
+     1px  1px 0px rgba(233, 58, 87, 1); 
   }
 
   .site-subtitle {
