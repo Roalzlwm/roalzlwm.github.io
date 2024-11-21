@@ -767,10 +767,12 @@ $btn-mb: 0.5rem;
 
   ul {
     margin-bottom: 2rem;
+    padding-left: 1.5rem;
 
     li.nav-item {
       opacity: 0.9;
       width: 100%;
+      margin-left: 0.5rem;
 
       @include pl-pr(1.5rem);
 
@@ -823,6 +825,8 @@ $btn-mb: 0.5rem;
           color: rgba(233, 58, 87, 1) !important;
           
           span {
+            font-size: 90%;
+            letter-spacing: 0.2px;
             opacity: 1;
             color: rgba(233, 58, 87, 1) !important;
           }
