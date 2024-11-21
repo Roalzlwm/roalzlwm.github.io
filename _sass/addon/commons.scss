@@ -690,10 +690,9 @@ $btn-mb: 0.5rem;
   width: $sidebar-width;
   z-index: 99;
   /*background: var(--sidebar-bg);*/
-  background: url('/assets/img/sidebar-bg-img.jpg') !important;
+  background: url('/assets/img/sidebar-bg-img.jpg') no-repeat !important;
   background-size: cover !important;
   background-position: center !important;
-  background-repeat: no-repeat !important;
   border-right: 1px solid var(--sidebar-border-color);
 
   /* Hide scrollbar for IE, Edge and Firefox */
