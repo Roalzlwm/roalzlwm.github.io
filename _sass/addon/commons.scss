@@ -767,15 +767,12 @@ $btn-mb: 0.5rem;
 
   ul {
     margin-bottom: 2rem;
-    padding: 0;
 
     li.nav-item {
       opacity: 0.9;
       width: 100%;
 
       @include pl-pr(1.5rem);
-
-      margin-bottom: 1rem;
 
       a.nav-link {
         @include pt-pb(0.6rem);
@@ -784,29 +781,30 @@ $btn-mb: 0.5rem;
         align-items: center;
         border-radius: 0.75rem;
         font-weight: 600;
-        padding: 0.5rem 1rem;
 
-        color: rbga(255, 255, 255, 1) !important;
+        color: rgba(255, 255, 255, 1) !important;
 
         &:hover {
           background-color: rgba(242, 229, 140, 1) !important;
           color: rgba(233, 58, 87, 1) !important;
           
           span {
+            font-size: 90%;
+            letter-spacing: 0.2px;
             opacity: 1;
             color: rgba(233, 58, 87, 1) !important;
           }
           i {
-            font-size: 100%;
-            opacity: 1;
-            margin-right: 1rem;
+            font-size: 95%;
+            opacity: 0.8;
+            margin-right: 1.5rem;
             color: rgba(233, 58, 87, 1) !important;
           }
         }
 
         i {
-          font-size: 100%;
-          opacity: 1;
+          font-size: 95%;
+          opacity: 0.8;
           margin-right: 1.5rem;
           color: rgba(255, 255, 255, 1) !important;
         }
@@ -814,6 +812,7 @@ $btn-mb: 0.5rem;
         span {
           font-size: 90%;
           letter-spacing: 0.2px;
+          opacity: 1;
           color: rgba(255, 255, 255, 1) !important;
         }
       }
@@ -828,8 +827,8 @@ $btn-mb: 0.5rem;
             color: rgba(233, 58, 87, 1) !important;
           }
           i{
-            font-size: 100;
-            opacity: 1;
+            font-size: 95%;
+            opacity: 0.8;
             margin-right: 1.5rem;
             color: rgba(233, 58, 87, 1) !important;
         }
