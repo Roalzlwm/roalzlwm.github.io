@@ -782,21 +782,21 @@ $btn-mb: 0.5rem;
         border-radius: 0.75rem;
         font-weight: 600;
 
-        color: rbga(255, 255, 255, 1);
+        color: rbga(255, 255, 255, 1) !important;
 
         &:hover {
-          background-color: rgba(242, 229, 140, 1);
-          color: rgba(233, 58, 87, 1);
+          background-color: rgba(242, 229, 140, 1) !important;
+          color: rgba(233, 58, 87, 1) !important;
           
           span {
             opacity: 1;
-            color: rgba(233, 58, 87, 1);
+            color: rgba(233, 58, 87, 1) !important;
           }
           i {
             font-size: 100%;
             opacity: 1;
             margin-right: 1.5rem;
-            color: rgba(233, 58, 87, 1);
+            color: rgba(233, 58, 87, 1) !important;
           }
         }
 
@@ -804,30 +804,30 @@ $btn-mb: 0.5rem;
           font-size: 100%;
           opacity: 1;
           margin-right: 1.5rem;
-          color: rgba(255, 255, 255, 1);
+          color: rgba(255, 255, 255, 1) !important;
         }
 
         span {
           font-size: 90%;
           letter-spacing: 0.2px;
-          color: rgba(233, 58, 87, 1);
+          color: rgba(233, 58, 87, 1) !important;
         }
       }
 
       &.active {
         .nav-link {
-          background-color: rgba(242, 229, 140, 1);
-          color: rgba(233, 58, 87, 1);
+          background-color: rgba(242, 229, 140, 1) !important;
+          color: rgba(233, 58, 87, 1) !important;
           
           span {
             opacity: 1;
-            color: rgba(233, 58, 87, 1);
+            color: rgba(233, 58, 87, 1) !important;
           }
           i{
             font-size: 100;
             opacity: 1;
             margin-right: 1.5rem;
-            color: rgba(233, 58, 87, 1);
+            color: rgba(233, 58, 87, 1) !important;
         }
       }
 
