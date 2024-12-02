@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Project-pygame-alpha-mine-sweeper 프로젝트 제작기"
-categories: Project
+categories: Project/Project-pygame-alpha-mine-sweeper
 tags: [project, Git, pygame, python]
 ---
 
