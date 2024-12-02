@@ -349,10 +349,13 @@ def create_structure(self):
 <br/>
 
 ## 3. 결과물
-| 시작 화면 | 게임 화면 |
-| :-------: | :-------: |
-| ![image](https://github.com/user-attachments/assets/fdb59c85-a189-46cb-9dbb-f42475381fb2) | ![image](https://github.com/user-attachments/assets/c6a4f94f-c4fd-4d56-acfb-312f6a37d32e) |
-| 플레이어의 인원을 2~4명까지 선택할 수 있다. | 빨강 팀이 [윷 던지기] 버튼을 눌러 게임을 시작한다. |
+- 시작 화면
+  - ![image](https://github.com/user-attachments/assets/fdb59c85-a189-46cb-9dbb-f42475381fb2)
+  - 플레이어의 인원을 2~4명까지 선택할 수 있다.
+
+- 플레이 화면
+  - ![image](https://github.com/user-attachments/assets/c6a4f94f-c4fd-4d56-acfb-312f6a37d32e)
+  - 빨강 팀이 [윷 던지기] 버튼을 눌러 게임을 시작한다.
 
 <br/>
 
