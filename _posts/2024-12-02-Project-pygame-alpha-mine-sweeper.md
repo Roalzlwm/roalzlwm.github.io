@@ -5,7 +5,7 @@ categories: Project/Project-pygame-alpha-mine-sweeper
 tags: [project, Git, pygame, python]
 ---
 
-[image](https://github.com/user-attachments/assets/62db45b5-d558-4dd2-a996-695dc971f17d)
+![image](https://github.com/user-attachments/assets/62db45b5-d558-4dd2-a996-695dc971f17d)
 
 ## 1. 프로젝트 개요
 - 주제 : pygame을 이용한 **`윷놀이 게임`** 제작
@@ -351,7 +351,7 @@ def create_structure(self):
 ## 3. 결과물
 | 시작 화면 | 게임 화면 |
 | :-------: | :-------: |
-| ![image](https://github.com/user-attachments/assets/a3fa9822-032c-420a-b461-c0fcc5e5e246) | ![image](https://github.com/user-attachments/assets/300dd680-82b2-4550-bb0a-0232987b25a9) |
+| ![image](https://github.com/user-attachments/assets/fdb59c85-a189-46cb-9dbb-f42475381fb2) | ![image](https://github.com/user-attachments/assets/c6a4f94f-c4fd-4d56-acfb-312f6a37d32e) |
 | 플레이어의 인원을 2~4명까지 선택할 수 있다. | 빨강 팀이 [윷 던지기] 버튼을 눌러 게임을 시작한다. |
 
 <br/>
