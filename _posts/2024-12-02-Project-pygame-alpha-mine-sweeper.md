@@ -5,9 +5,7 @@ categories: Project
 tags: [project, Git, pygame, python]
 ---
 
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/767385d1-f697-425b-b602-7b11c56fb7cd" alt="image">
-</div>
+[image](https://github.com/user-attachments/assets/62db45b5-d558-4dd2-a996-695dc971f17d)
 
 ## 1. 프로젝트 개요
 - 주제 : pygame을 이용한 **`윷놀이 게임`** 제작
@@ -353,7 +351,7 @@ def create_structure(self):
 ## 3. 결과물
 | 시작 화면 | 게임 화면 |
 | :-------: | :-------: |
-| ![image](https://github.com/user-attachments/assets/d5ca193d-3c16-4c73-bb59-e422f9fff29a) | ![image](https://github.com/user-attachments/assets/93f182a0-8322-4c0a-b8af-3e7c03b8796e) |
+| ![image](https://github.com/user-attachments/assets/a3fa9822-032c-420a-b461-c0fcc5e5e246) | ![image](https://github.com/user-attachments/assets/300dd680-82b2-4550-bb0a-0232987b25a9) |
 | 플레이어의 인원을 2~4명까지 선택할 수 있다. | 빨강 팀이 [윷 던지기] 버튼을 눌러 게임을 시작한다. |
 
 <br/>
@@ -365,52 +363,34 @@ def create_structure(self):
 <br/>
 
 #### 플레이 순서
-<div align="center">
-  <img width="400" src="https://github.com/user-attachments/assets/25c777b7-ee55-4af9-a487-6f8508401c1b" alt="image">
-</div>
-
+![image](https://github.com/user-attachments/assets/7af16631-7628-4658-af10-7287b94cb9fa)
 1. [윷 던지기] 버튼을 클릭하여 윷을 던진다.
    - [윷] 또는 [모]가 나올 경우, 말을 이동시키기 전 윷을 한 번 더 던진다.
 
 <br/>
 
-<div align="center">
-  <img width="400" src="https://github.com/user-attachments/assets/075769ad-e5c4-4128-b3a1-03d8b4abcd8d" alt="image">
-</div>
-
+![image](https://github.com/user-attachments/assets/5602f599-b6dc-4ade-9275-6df5d7d19c5b)
 2-1. 새로운 말을 출전시킬 거라면 [새 말] 버튼을 클릭하고 이동시킬 결과(빽도~모) 버튼을 클릭한다.
 
 <br/>
 
-<div align="center">
-  <img width="400" src="https://github.com/user-attachments/assets/66431050-d64c-4ac6-84de-c9e1de3f4f52" alt="image">
-</div>
-
+![image](https://github.com/user-attachments/assets/a0d04559-b44c-4014-bfb0-2bf8e45baa56)
 2-2. 이미 출전되어 있는 말을 움직일 거라면 [말 선택] 우측에 위치해 있는 이동시킬 말 번호를 클릭하고 이동시킬 결과(빽도~모) 버튼을 클릭한다.(해당 버튼은 숫자로 표기되어 있다.)
 
 <br/>
 
-<div align="center">
-  <img width="400" src="https://github.com/user-attachments/assets/b24ee97e-385e-4fc2-965f-76d5b5b5d98a" alt="image">
-</div>
-
+![image](https://github.com/user-attachments/assets/5ecffd08-4b18-47e9-805d-2dafbf4adcdb)
 3. 이동시킬 결과 버튼을 클릭하면 말이 갈 수 있는 위치에 주황색으로 표기된다. 이동하고 싶은 주황색 위치를 클릭하면 말이 움직인다.
   - 이 때에도 움직일 말을 변경하고 싶은 경우 2번을 참고하여 변경할 수 있다.
 
 <br/>
 
-<div align="center">
-  <img width="400" src="https://github.com/user-attachments/assets/d36a2afd-e9d3-41b1-81eb-7e15d491bcdd" alt="image">
-</div>
-
+![image](https://github.com/user-attachments/assets/b57a0aa7-f10c-41bb-9a87-66ae183ee726)
 4. [출발] 지점 대각선의 위치하는 주황색 버튼을 클릭하면 골인한다.
 
 <br/>
 
-<div align="center">
-  <img width="400" src="https://github.com/user-attachments/assets/2b04a497-46a2-4928-9b4d-6d82fecd1c39" alt="image">
-</div>
-
+![image](https://github.com/user-attachments/assets/93037734-a4a6-45c6-aa60-0d893d1450a7)
 5. 골인할 경우 우측에 존재하는 스코어가 올라간다.
 
 <br/>
@@ -457,58 +437,7 @@ def create_structure(self):
 ![image](https://github.com/user-attachments/assets/b37a13f5-e7dd-4ddb-b366-1c789e625036)
  PR 작성 시 `.github/pull_request_template.md`를 사용해 일정한 형식을 유지했다. 템플릿을 작성할 땐, 누가 쓰던 일정할 수 있도록 주석을 적극 활용하였다.
 - **PR 템플릿**
-> ```markdown
-<!-- title은 짧고 간결한 요약으로 작성, 영어로 작성할 것 -->
-<!-- 작성 예시 : click_main.py -->
-
-<!-- 제목, 짧고 간결하게 요약하여 작성, 한국으로 작성할 것 -->
-<!-- 작성 예시 : ## O 버튼 클릭 유무 확인 -->
-## O 제목
-
-
-<br/>
-
-
-<!-- 설명, 변경한 내용에 대해 간단히 설명 -->
-<!-- 왜 이러한 변경이 필요한지, 어떤 문제를 해결하는지 작성 -->
-<!-- 작성 예시 -->
-<!-- ### O PR 내용 설명
-- 변수 변수명 추가 : 말의 점수를 추적하는 변수입니다. 57번째 코드에 존재합니다.
-- OOO 부분에 오류가 존재합니다.-->
-### O PR 내용 설명
-- 설명 추가
-
-
-<br/>
-
-
-<!-- 변경 사항, 주요 변경 사항을 나열 -->
-<!-- 작성 예시 -->
-<!-- ### O 변경 사항
-- 기능 A 추가
-- 버그 B 수정
-- 코드 스타일 C 개성 -->
-### O 변경 사항
-- 변경 사항 추가
-
-
-<br/>
-
-
-<!-- 테스트 방법에 대하여 설명 -->
-<!-- 작성 예시 -->
-<!-- ### O 테스트 방법
-- 본래 main.py 대신 click_main.py로 실행. 실행 시 파일명을 main.py로 바꿔줘야 함.
-- main.py로 실행 -->
-### O 테스트 방법
-- 설명
-
-
-
-<!-- 모든 파일명은 '[type] 파일명'을 따름 -->
-<!-- type : feat(처음 PR를 올릴 때), fix(수정한 파일) -->
-<!-- 예시 : [feat] click_main.py, [fix] click_main.py -->
-```
+> ![image](https://github.com/user-attachments/assets/b2a36b97-01dc-4bf6-9ef8-7dd7bbc19fbe)
 
  또한 모든 PR에 라벨을 붙이고 리뷰어를 지정한 뒤 팀원 모두가 확인 댓글을 작성하면 Merge를 진행했다. 따라서 정리된 PR 순서를 시각화하면 다음과 같다.
 ![image](https://github.com/user-attachments/assets/ebca5a20-cf52-4615-bf92-2dd1b7528ee8)
